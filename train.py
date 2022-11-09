@@ -17,8 +17,8 @@ from utils import AverageMeter, calc_psnr, calculate_psnr
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--train-file', type=str, default='C:/workspace/SR3/dataset/Iris224trainhq_56_224')
-    parser.add_argument('--eval-file', type=str, default='C:/workspace/SR3/dataset/Iris224validhq_56_224')
+    parser.add_argument('--train-file', type=str, default='data/Iris224trainhq_56_224')
+    parser.add_argument('--eval-file', type=str, default='data/Iris224validhq_56_224')
     parser.add_argument('--outputs-dir', type=str, default='./output')
     parser.add_argument('--scale', type=int, default=4)
     parser.add_argument('--lr', type=float, default=1e-4)
